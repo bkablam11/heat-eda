@@ -1,0 +1,20 @@
+Le contexte
+Les maladies cardiovasculaires (MCV) sont la premiÃ¨re cause de dÃ©cÃ¨s dans le monde, faisant environ 17,9 millions de vies chaque annÃ©e, ce qui reprÃ©sente 31 % de tous les dÃ©cÃ¨s dans le monde. Quatre dÃ©cÃ¨s sur 5 par MCV sont dus Ã  des crises cardiaques et Ã  des accidents vasculaires cÃ©rÃ©braux, et un tiers de ces dÃ©cÃ¨s surviennent prÃ©maturÃ©ment chez des personnes de moins de 70 ans. L'insuffisance cardiaque est un Ã©vÃ©nement courant causÃ© par les maladies cardiovasculaires et cet ensemble de donnÃ©es contient 11 caractÃ©ristiques qui peuvent Ãªtre utilisÃ©es pour prÃ©dire une Ã©ventuelle maladie cardiaque.
+
+Les personnes atteintes de maladies cardiovasculaires ou Ã  haut risque cardiovasculaire (en raison de la prÃ©sence d'un ou plusieurs facteurs de risque tels que l'hypertension, le diabÃ¨te, l'hyperlipidÃ©mie ou une maladie dÃ©jÃ  Ã©tablie) ont besoin d'une dÃ©tection et d'une gestion prÃ©coces dans lesquelles un modÃ¨le d'apprentissage automatique peut Ãªtre d'une grande aide.
+
+
+
+Informations sur les attributs
+AGE : Ã¢ge du patient 
+SEXE : sexe du patient [homme, femme]
+TDT : type de douleur thoracique [AT : angine typique, AA : angine atypique, DNA : douleur non angineuse, ASY : asymptomatique]
+PAR : pression artÃ©rielle au repos [mm Hg]
+CHOLESTEROL : cholestÃ©rol sÃ©rique [mm/dl]
+GAJ : glycÃ©mie Ã  jeun [1 : si glycÃ©mie Ã  jeun > 120 mg/dl, 0 : sinon]
+ECG au repos : rÃ©sultats de l'Ã©lectrocardiogramme au repos [Normal : normal, ST : prÃ©sentant une anomalie de l'onde ST-T , HVG : montrant une hypertrophie ventriculaire gauche probable]
+FCMAX : frÃ©quence cardiaque maximale atteinte 
+ANGINE : angine induite par l'exercice [Oui, Non]
+DEPRESSION : Valeur numÃ©rique mesurÃ©e en dÃ©pression
+PENTE: la pente du segment ST d'exercice de pointe [Ascendant, Plat, Descendant]
+COEUR : maladie cardiaque[1 : PrÃ©sence de la maladie, 0 : Absence de la maladie]
